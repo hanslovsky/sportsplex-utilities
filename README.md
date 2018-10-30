@@ -13,7 +13,7 @@ See below for a list of all available tools.
 ## Installation
 The easiest way to get access to these tools is via conda. 
 ### Conda
-If you are not familiar with conda, or do not have it yet, download and install [Miniconda with Python3.6 for your operating system](https://conda.io/miniconda.html). 
+If you are not familiar with conda, or do not have it yet, download and install [Miniconda with Python 3 for your operating system](https://conda.io/miniconda.html). 
 
 #### Linux/macOS
 During the command line installation you can decide to add `/conda/installation/directory/bin` to your `PATH`. If you choose not to, make sure that conda is on your `PATH` before you install this package or run any of the tools.
