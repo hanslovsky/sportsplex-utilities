@@ -53,3 +53,10 @@ GAME,REGULAR,,Dulles Danglers,Unjust Guinjas,"Sun, Jun 24, 2018",4:00 PM
 GAME,REGULAR,,Dulles Danglers,Flying Whales,"Sun, Jul 1, 2018",6:00 PM
 GAME,REGULAR,,Dulles Danglers,Make Santa Jolly Again,"Tue, Jul 10, 2018",7:00 PM
 ```
+
+If you prefer to save the output in a file, run
+```bash
+convert-schedule --output=<output> --benchapp https://dulles-sportsplex.ezleagues.ezfacility.com/teams/2201163/Dulles-Danglers.aspx
+```
+
+Replace `<output>` with the path at which you would like to store your team's schedule, e.g. `stanley-cup-champions-schedule.csv`, `C:\Users\smooth-hands\schedule.csv` (Windows only), or `/home/hockey-gods/schedule.csv` (Linux/macOS only). You can then import the schedule into benchapp from the file located at `<output>`.
